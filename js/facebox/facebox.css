@@ -1,0 +1,153 @@
+#facebox .b {
+  background:url(../facebox/b.png);
+}
+
+#facebox .tl {
+  background:url(../facebox/tl.png);
+}
+
+#facebox .tr {
+  background:url(../facebox/tr.png);
+}
+
+#facebox .bl {
+  background:url(../facebox/bl.png);
+}
+
+#facebox .br {
+  background:url(../facebox/br.png);
+}
+
+#facebox {
+  font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+  letter-spacing: normal;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  text-align: left;
+  color: #000;
+}
+
+#facebox form {
+	font-size: 100%;
+	border-style: none;
+}
+
+#facebox .popup {
+  position: relative;
+}
+
+#facebox table {
+  margin: auto;
+  border-collapse: collapse;
+  padding: 0;
+}
+
+#facebox table tr {
+	margin: 0; padding: 0;
+	color: #000;
+}
+
+#facebox table tr td {
+	margin: 0; padding: 0;
+	border: none;
+}
+
+#facebox .body {
+  padding: 10px;
+  background: #fff;
+  width: 370px;
+  margin: 0;
+}
+
+#facebox .loading {
+  text-align: center;
+}
+
+#facebox .image {
+  text-align: center;
+}
+
+#facebox img {
+  border: 0;
+}
+
+#facebox .footer {
+  border-top: 1px solid #DDDDDD;
+  padding-top: 5px;
+  margin-top: 10px;
+  text-align: right;
+}
+
+#facebox .tl, #facebox .tr, #facebox .bl, #facebox .br {
+  height: 10px;
+  width: 10px;
+  overflow: hidden;
+  padding: 0;
+}
+
+/* Customized by Colin Devroe of Viddler */
+
+.viddlercomment img { border: none; }
+.viddlercomment a { text-decoration: none; }
+.viddlercomment p { margin: 0; padding: 0; }
+
+#videocomment a { background: url('http://static.cdn-ec.viddler.com/wp-plugin/v1/images/redcam.png') top left no-repeat; padding: 3px 0 5px 22px; }
+
+#videopost { width: 200px; text-align: center; margin: 10px; padding: 15px; background: #fff; border: 1px solid #DDDDDD; }
+#videopost a { border: none; background: url('http://static.cdn-ec.viddler.com/wp-plugin/v1/images/redcam.png') top left no-repeat; padding: 3px 0 5px 22px; }
+
+#facebox .content { font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif !important; margin: 0; width: auto; font-size-adjust:none; font-stretch:normal; font-style:normal; font-variant:normal; font-weight:normal; letter-spacing: normal; line-height: normal; }
+
+#facebox .content h2 { color: #000; background: none; width: 100%; height: 16px; font-weight: normal; font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif !important; letter-spacing: normal; font-size: 16px; margin: 0; line-height: normal; padding: 0 0 5px 0; border-bottom: 1px solid #DDDDDD; }
+#facebox .content p { color: #000; font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif; font-size: 12px; padding: 7px 0; font-size-adjust:none; font-stretch:normal; font-style:normal; font-variant:normal; font-weight:normal; letter-spacing: normal; line-height: normal; }
+	#facebox .content p.error { color: maroon; font-size: 12px; }
+	#facebox .content p.paging { text-align: center; }
+	#facebox .content p small { color: gray; font-size: 0.8em; }
+		#facebox .content p a, #facebox .content p a:active, #facebox .content p a:visited { font-weight: normal; color: #3b4e6e; text-decoration: underline; border: none; }
+
+#facebox .content ul { list-style-type: disc; margin: 0; padding: 0; }
+
+#facebox .content ul li { font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif; margin: 0; padding: 0; font-size: 12px; }
+	#facebox .content ul li p { font-size: 12px; }
+	#facebox .content ul li a, #facebox .content ul li a:active, #facebox .content ul li a:visited { font-weight: normal; color: #3b4e6e; text-decoration: underline; border: none; }
+	
+#facebox .content ul.signup { margin: 10px 18px; }
+	
+#facebox .content ul.videos { list-style:none; padding: 2px; margin: 0 auto; }
+	#facebox .content ul.videos li { float:left; font-size: 10px; width: 89px; border: 1px solid #fff; padding: 2px;  margin: 12px 7px; text-align: center; }
+	#facebox .content ul.videos li:hover { border: 1px solid #DDDDDD; }
+	#facebox .content ul.videos li.active { background: url('http://static.cdn-ec.viddler.com/wp-plugin/v1/images/checkmark.png') bottom left no-repeat; }
+	#facebox .content ul.videos li p { font-size: 1em; padding: 0; margin: 0; }
+		#facebox .content ul.videos li p.videotitle { padding: 4px 0; text-align: right; }
+	#facebox .content ul.videos li a { text-decoration: underline; color: #3b4e6e; border: none; }
+		#facebox .content ul.videos li a:hover { text-decoration: underline; color: blue; }
+			#facebox .content ul.videos li a img { display: block; border: none; margin: 0 auto; padding: 0; border: none; }
+
+
+
+/* Nav */
+#facebox .content ul.fbnavigation { margin: 0; padding: 0; list-style-type: none; float: right; }
+	#facebox .content ul.fbnavigation li { border-left: 1px solid #DDDDDD; color: #c0c0c0; display: block; margin; 0 5px 0 5px !important; padding: 0 5px 0 5px; float: left; font-weight: bold; text-decoration: underline; font-size: 13px; text-transform: lowercase; }
+	#facebox .content ul.fbnavigation li.active { margin; 0 5px 0 5px !important; padding: 0 5px 0 5px; color: #3b4e6e; text-decoration: none; }
+		#facebox .content ul.fbnavigation li a, #facebox .content ul.fbnavigation li a:hover  { color: #3b4e6e; text-decoration: underline; }
+
+/* Registration form */
+#facebox .content form { width: 100%; margin: 0; padding: 2px; }
+#facebox .content form#viddlerregisterform { width: 75%; margin: 0; padding: 0; }
+	#facebox .content form label { font-weight: bold; }
+	#facebox .content form p { text-align: right; }
+		#facebox .content form p.registerbutton { text-align: right; }
+	#facebox .content form input { color: #000; background: #fff; font-size: 12px; padding: 2px; border: solid 2px gray; }
+
+#facebox .footer { font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif; padding-right: 0; padding-left: 0; padding-bottom: 0; width: 100%; }
+	#facebox .footer img { border: none; }
+	#facebox .footer a { border: none; }
+	#facebox .footer img.poweredby_image { float: left; margin: 0; padding: 0; border: none; }
+	
+/* Admin */
+p.adminpoweredby { text-align: right; }
+
+.viddlernarrow p { text-align: right; }
